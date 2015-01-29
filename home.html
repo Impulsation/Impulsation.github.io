@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--    Copyright 2014 gokoururi
+        This work is free. You can redistribute it and/or modify it under the
+        terms of the Do What The Fuck You Want To Public License, Version 2,
+        as published by Sam Hocevar. See the COPYING file for more details. -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Welcome Home</title>
+
+        <link rel="stylesheet" style="text/css" href="general.css" />
+
+        <!-- To change theme, replace its name in following 4 lines  -->
+        <link rel="icon"                           href="themes/league-dark/favicon2.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon" />
+        <link rel="stylesheet" style="text/css"    href="themes/league-dark/colors.css" />
+        <script type="text/javascript">var mascotPath = "themes/league-dark/images/mascots/";</script>
+        <script type="text/javascript"              src="themes/league-dark/mascots.js"></script>
+
+        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/mascots-control.js"></script>
+    </head>
+    <body>
+        <main> <!-- Random mascot image will be set as background-image by javascript -->
+            <header>
+                <h1><span class="name-highlight">Welcome to Summoner's Rift</span></h1>
+                <p class="subtitle">"Battle is a lot more interesting than shopping, you know."</p>
+            </header>
+            <section class="searchContainer">
+                <form class="searchForm" method="get" action="https://google.com/search">
+                    <input class="searchBar search_google" type="text" name="q" placeholder="Google" autofocus="autofocus" search_/>
+                </form>
+				<!--
+                <form class="searchForm" method="get" action="https://youtube.com/results">
+                    <input class="searchBar search_youtube" type="text" name="search_query" placeholder="Youtube" search_/>
+                </form>
+                <form class="searchForm" method="get" action="https://en.wikipedia.org/w/index.php">
+                    <input class="searchBar search_wikipedia" type="text" name="search" placeholder="Wikipedia (en)" search_/>
+                </form>
+				-->
+				<form class="searchForm" method="get" action="http://www.probuilds.net">
+                    <input class="searchBar search_probuilds" type="text" name="search" placeholder="probuilds" search_/>
+                </form>
+				<form class="searchForm" method="get" action="http://lolnexus.com/NA/search">
+                    <input class="searchBar search_lolnexus" type="text" name="name" placeholder="LoLNexus" autofocus="autofocus" search_/>
+                </form>
+				<form class="searchForm" method="get" action="http://leagueoflegends.wikia.com/wiki/Special:Search">
+                    <input class="searchBar search_wikipedia" type="text" name="search" placeholder="LoLWiki" autofocus="autofocus" search_/>
+                </form>				
+            </section>
+            <nav>
+                <ul class="buttonList">
+					<li class="button button_blue buttonArrow"><a href="#">Social</a>
+                        <ul>
+                            <li><a href="http://facebook.com">Facebook</a></li>
+                            <li><a href="http://twitter.com">Twitter</a></li>
+                            <li><a href="http://instagram.com">Instagram</a></li>
+                        </ul>
+                    </li>
+					<li class="button button_blue buttonArrow"><a href="http://reddit.com">Entertainment</a>
+                        <ul>
+                            <li><a href="http://www.twitch.tv">Twitch</a></li>
+                            <li><a href="http://www.netflix.com">Netflix</a></li>
+                            <li><a href="http://www.hulu.com">Hulu</a></li>
+                        </ul>
+                    </li>
+                    <li class="button button_blue buttonArrow"><a href="#">League</a>
+                        <ul>
+                            <li><a href="http://www.lolnexus.com/NA/search?name=megafreshlemons&region=NA">Lolnexus</a></li>
+                            <li><a href="http://www.probuilds.net/">Probuilds</a></li>
+                            <li><a href="http://na.op.gg/summoner/userName=megafreshlemons">OP.GG</a></li>
+							<li><a href="http://leagueoflegends.wikia.com/wiki/League_of_Legends_Wiki">Wiki</a></li>
+							
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="columnList">
+                    <li class="column column_green">
+                        <a>Reddit</a>
+                        <ul>
+                            <li><a href="http://reddit.com/r/leagueoflegends">League</a></li>
+                            <li><a href="http://reddit.com/r/askreddit">AskReddit</a></li>
+                            <li><a href="http://reddit.com/r/gaming">Gaming</a></li>
+                        </ul>
+                    </li>
+                    <li class="column column_green">
+                        <a>4chan</a>
+                        <ul>
+                            <li><a href="http://boards.4chan.org/v/">Video Games</a></li>
+                            <li><a href="http://boards.4chan.org/vg/">Video Game General</a></li>
+                            <li><a href="http://boards.4chan.org/g/">Technology</a></li>
+                        </ul>
+                    </li>
+					<!--
+                    <li class="column column_green">
+                        <a>Animution</a>
+                        <ul>
+                            <li><a href="http://bakabt.me">Bakabt</a></li>
+                            <li><a href="http://www.nyaa.se/">Nyaa</a></li>
+                            <li><a href="http://utw.me">UTW</a></li>
+                            <li><a href="http://mazuisubs.com">Mazui</a></li>
+                        </ul>
+                    </li>
+					-->
+                </ul>
+            </nav>
+        </main>
+    </body>
+</html>
